@@ -5,18 +5,22 @@
   
 
   
-  <title>chuck的博客</title>
+  <title>关于web安全及一些最新防御方法 | chuck的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="chuck的技术博客，每两周更新一次，记录成长的点点滴滴。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="chuck的博客">
-<meta property="og:url" content="http://inchill.github.io/index.html">
+  <meta name="description" content="前言 对于很多刚开始工作的前端而言，web安全似乎是一个说不清道不明的东西。关于web安全，认真学习总结一下，其实就会发现它不难。本文通过面试提问的形式来一一进行总结，希望对于各位小伙伴理解web安全有所帮助。 1.前端有哪些攻击方式？ 目前常见的web攻击方式主要分为：XSS攻击、CSRF攻击、点击劫持。 2.什么是XSS攻击？XSS攻击有哪几种类型？如何防范XSS攻击？ 2.1 什么是XSS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于web安全及一些最新防御方法">
+<meta property="og:url" content="http://inchill.github.io/2020/07/04/%E5%85%B3%E4%BA%8Eweb%E5%AE%89%E5%85%A8%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%9C%80%E6%96%B0%E9%98%B2%E5%BE%A1%E6%96%B9%E6%B3%95/index.html">
 <meta property="og:site_name" content="chuck的博客">
-<meta property="og:description" content="chuck的技术博客，每两周更新一次，记录成长的点点滴滴。">
+<meta property="og:description" content="前言 对于很多刚开始工作的前端而言，web安全似乎是一个说不清道不明的东西。关于web安全，认真学习总结一下，其实就会发现它不难。本文通过面试提问的形式来一一进行总结，希望对于各位小伙伴理解web安全有所帮助。 1.前端有哪些攻击方式？ 目前常见的web攻击方式主要分为：XSS攻击、CSRF攻击、点击劫持。 2.什么是XSS攻击？XSS攻击有哪几种类型？如何防范XSS攻击？ 2.1 什么是XSS">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2020/7/1/17309e55649c23eb?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1">
+<meta property="article:published_time" content="2020-07-04T11:18:36.000Z">
+<meta property="article:modified_time" content="2020-07-04T11:21:55.933Z">
 <meta property="article:author" content="刘宇">
-<meta property="article:tag" content="Web">
+<meta property="article:tag" content="web安全">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2020/7/1/17309e55649c23eb?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1">
   
     <link rel="alternate" href="/atom.xml" title="chuck的博客" type="application/atom+xml">
   
@@ -65,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-关于web安全及一些最新防御方法" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-关于web安全及一些最新防御方法" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/07/04/%E5%85%B3%E4%BA%8Eweb%E5%AE%89%E5%85%A8%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%9C%80%E6%96%B0%E9%98%B2%E5%BE%A1%E6%96%B9%E6%B3%95/" class="article-date">
   <time datetime="2020-07-04T11:18:36.000Z" itemprop="datePublished">2020-07-04</time>
@@ -80,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/04/%E5%85%B3%E4%BA%8Eweb%E5%AE%89%E5%85%A8%E5%8F%8A%E4%B8%80%E4%BA%9B%E6%9C%80%E6%96%B0%E9%98%B2%E5%BE%A1%E6%96%B9%E6%B3%95/">关于web安全及一些最新防御方法</a>
+    <h1 class="article-title" itemprop="name">
+      关于web安全及一些最新防御方法
     </h1>
   
 
@@ -159,11 +161,9 @@ XSS的本质是：恶意代码未经过滤，与网站正常的代码混在一�
     </footer>
   </div>
   
-</article>
-
-
+    
   
-
+</article>
 
 </section>
         
